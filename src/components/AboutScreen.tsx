@@ -110,7 +110,7 @@ export function AboutScreen() {
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                 <button
-                  onClick={() => openUrl('https://github.com/gitttsarya/Klip')}
+                  onClick={() => openUrl('https://github.com/ZohanZaheer/Klip')}
                   style={{
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                     padding: '14px 16px', background: 'var(--bg-surface)', borderRadius: 12,
@@ -121,14 +121,14 @@ export function AboutScreen() {
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                     <Github size={20} className="text-primary" />
-                    <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-primary)' }}>Developer: gitttsarya (Satish)</span>
+                    <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-primary)' }}>Developer: ZohanZaheer (Satish)</span>
                   </div>
                   <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>GitHub ↗</span>
                 </button>
                 
                 <div style={{ display: 'flex', gap: 8 }}>
                   <button
-                    onClick={() => openUrl('https://github.com/gitttsarya/Klip/releases')}
+                    onClick={() => openUrl('https://github.com/ZohanZaheer/Klip/releases')}
                     style={{
                       flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',
                       padding: '12px 16px', background: 'var(--bg-surface)', borderRadius: 12,
@@ -141,7 +141,7 @@ export function AboutScreen() {
                     Check for Updates
                   </button>
                   <button
-                    onClick={() => openUrl('https://github.com/gitttsarya/Klip/issues')}
+                    onClick={() => openUrl('https://github.com/ZohanZaheer/Klip/issues')}
                     style={{
                       flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',
                       padding: '12px 16px', background: 'var(--bg-surface)', borderRadius: 12,
